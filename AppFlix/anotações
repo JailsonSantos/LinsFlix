@@ -1,0 +1,106 @@
+# Comandos Básicos
+
+# Criar o App
+- npx react-active init NomeDoApp
+
+# Rodar o App no dispositivo android
+- cd NomeDoApp
+- yarn android ou
+- npx react-native run-android 
+
+# Link do site (Similar ao bootstrap)
+- https://callstack.github.io/react-native-paper/getting-started.html
+
+# Dependencias
+- yarn add react-native-paper
+- yarn add react-native-vector-icons
+
+# Site par icons
+- https://materialdesignicons.com/
+
+# configuração de arquivo Android
+- Edit android/app/build.gradle e adiciona esse comando no topo do arquivo
+- apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+- rode novamente yarn android
+
+# Modulo gradient
+- yarn add react-native-linear-gradient
+
+# Configuração no package.json
+- "start": "adb reverse tcp:8081 tcp:8081 && react-native start --reset-cache",
+    
+# Buscar por modulos (react JS, react Native, outros.)
+- https://js.coach/
+
+# Modulo de Material-Dialog
+- yarn add react-native-material-dialog
+
+# IMPORTANTE 
+- Quando o modulo instalado for apenas (JS - JavaScript),
+não precisa reinstalar o Apk novamente com (yarn android),
+use apenas (yarn start) para reiniciar o bundle.
+
+# Rotas (React Navigation)
+- yarn add @react-navigation/native
+- yarn add react-native-screens react-native-safe-area-context
+- yarn add @react-navigation/native-stack
+
+# Necessário instalar e rodar o apk novamente
+- yarn android
+- yarn start
+
+# React Native Material Bottom Tabs (Nagegação na parte inferior do APP)
+- yarn add @react-navigation/material-bottom-tabs
+
+# Muito Importante
+- Desistante o App e reinstale do zero para garantir que as funcionalidades foram instaladas corretamente
+- yarn android
+- yarn start
+
+# Instalando o Axios
+- yarn add axios
+
+# Async Storage (persistir os dados no device)
+- yarn add @react-native-async-storage/async-storage
+
+# Muito Importante
+- Desistante o App e reinstale do zero para garantir que as funcionalidades foram instaladas corretamente
+- yarn android
+- yarn start
+
+# Criar os icones do app circle e rectangul
+- https://romannurik.github.io/AndroidAssetStudio/
+
+# Criar um arquivo XML pra configurar o splash
+- pasta android
+- app/src/main/res/drawable
+- splash.xml
+
+
+# Site para Referencias de Design de App ou web
+- mobbin.design
+- ui8.net (ui kits)
+- pinterest.com
+- herance.net
+- github.com/SilvioLuis/awesome-android-ui
+- github.com/SilvioLuis/awesome-ios-ui
+
+# Importantes
+- Usar a documentação do react native
+
+# UX - UI design
+- UX - Comportamento
+- pesquisa
+- protótipos
+- etnografia
+- personas
+- objetivos
+- fazer a validação das funcionalidades do app
+- pesquisar por (wireframe) disposição de blocos nas tela do app ou web
+
+- UI - Aparência
+- Design Visual
+- Tipografia
+- Cores
+- Layouts
+- Design System
