@@ -23,6 +23,13 @@ const HomeTabs = () => {
       activeColor={'#fff'}
       shifting={false}
       barStyle={{ backgroundColor: '#141414' }}
+
+    /*      screenOptions={{
+           headerShown: false,
+           unmountOnBlur: true,
+           tabBarShowLabel: false,
+           tabBarStyle: { height: 50 }
+         }} */
     >
       <Tab.Screen
         name="Home"

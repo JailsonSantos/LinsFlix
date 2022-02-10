@@ -104,3 +104,11 @@ use apenas (yarn start) para reiniciar o bundle.
 - Cores
 - Layouts
 - Design System
+
+# Usuário logado
+
+_id:61a631af11331ca2473934ab
+nome:"Jailson Santos"
+email:"Jailson@gmail.com"
+senha:"123"
+__v:0
