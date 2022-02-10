@@ -1,7 +1,8 @@
 <h1 align="center">
   <img alt="LinsFlix" title="#LinsFlix" src="./src/assets/logo.png" />
 </h1>
-Uma App em React Native que clona as funcionalidades da NETFLIX
+
+<p align="center">Um App em React Native que clona as funcionalidades da NETFLIX</p>
 
 <h2 align="center">Tabela de Conteúdos</h2>
 <p align="center">
@@ -15,7 +16,7 @@ Uma App em React Native que clona as funcionalidades da NETFLIX
 </p>
 
 <h2 align="center" id="sobre">Sobre</h2>
-<p align="justify">Um App que clona  as interfaçes da NETFLIX, dentro dessa aplicação é possível criar usuario, fazer login, fazer refresh para atualizar os filmes e séries que estão sendo exibidos na home, o usuário pode escolher qual fime ou série assistir, escolhendo por cagetoria ou sessão, além de poder navegar entre as telas, também poderá fazer a seleção da temporada ao qual deseja assistir, que será listado os capítulos por tempordas.</p>
+<p align="justify">Um App que clona  as interfaçes da NETFLIX, dentro dessa aplicação é possível criar usuario, fazer login, fazer refresh para atualizar os filmes e séries que estão sendo exibidos na home, o usuário pode escolher qual filme ou série assistir, escolhendo por cagetoria ou sessão, além de poder navegar entre as telas, também poderá fazer a seleção da temporada ao qual deseja assistir, que será listado os capítulos por temporadas.</p>
 
 <h3 align="left" id="funcionalidades">Funcionalidades</h3>
 
@@ -23,8 +24,8 @@ Uma App em React Native que clona as funcionalidades da NETFLIX
 - [x] Fazer login do usário;
 - [x] Fazer refresh de conteúdos na página home e nas categorias;
 - [x] Selecionar filmes ou séries;
-- [x] Selecionar capitos das séries por temporadas;
-- [x] Fazer reset de senha (ainda falta implementar);
+- [x] Selecionar capitulos das séries por temporadas;
+- [x] Recuperar a senha (ainda falta implementar);
 - [x] Fazer logout (ainda falta implementar);
 
 <h2 align="left" id="layout">🎨 Layout Mobile</h2>
